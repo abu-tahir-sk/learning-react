@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import PriceOPtion from './components/PriceOPtion/PriceOPtion'
 // import NavbarD from './components/NavbarD/NavbarD'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     {/* <NavbarD></NavbarD> */}
     <Navbar></Navbar>
+    <PriceOPtion></PriceOPtion>
     </>
   )
 }
